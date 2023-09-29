@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 """
-fetch holberton /statue page
+fetch alx /statue page
 """
 
 if __name__ == '__main__':
     import urllib.request
-    req = urllib.request.Request('https://intranet.hbtn.io/status')
+    req = urllib.request.Request('https://alx-intranet.hbtn.io/status')
     with urllib.request.urlopen(req) as response:
         html = response.read()
 
